@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "spice-workspace": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "C:/Projects/SpiceSimulations"]
+    },
+    "component-lookup": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-fetch"]
+    }
+  }
+}
