@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "electronics-tools": {
+      "command": "python",
+      "args": [".claude/skills/virtuoso_bridge.py"],
+      "env": {
+        "PYTHONPATH": "."
+      }
+    },
+    "fetch": {
+      "command": "uvx",
+      "args": ["mcp-server-fetch"]
+    }
+  }
+}
